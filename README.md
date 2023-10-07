@@ -18,9 +18,9 @@ Main-Class: MyApp
                      ```
 
 3. Generate a "jar" file from the manifest and class files 
-`jar cfm MyApp.jar Manifest.txt MyApp.class`
+```jar cfm MyApp.jar Manifest.txt MyApp.class```
 
-4. Execute the jar file using java. The "-cp" argument is shorthand for "class path" and identifies the main class in the jar file as "MyApp". <br/>
+4. Execute the jar file using java. The "-cp" argument is shorthand for "class path" and identifies the main class in the jar file as "MyApp". 
 ```
 java -cp MyApp.jar MyApp
 ```
