@@ -11,7 +11,8 @@ The folder "MyApp" contains the MyApp.java file that is to be compiled. The fold
 
 2. Create a Manifest.txt file with the following content (note a blank line, carriage-return, is required for it to work). The manifest file is to tell java which class is to be run in the jar file. <br/>
 `Manifest-Version: 1.0` <br/>
-`Main-Class: MyApp`
+`Main-Class: MyApp`<br />
+` `
 
 3. Create a "jar" file from the manifest and class files <br/>
 `jar cfm MyApp.jar Manifest.txt MyApp.class`
