@@ -14,11 +14,14 @@ javac MyApp.java
 2. Create a "Manifest.txt" file using a text editor with the following content. The manifest file is to tell java which class is to be run in the jar file. (note a blank line, carriage-return, is required for it to work with java).  
 ```
 Manifest-Version: 1.0
-Main-Class: MyApp    
-                     ```
+Main-Class: MyApp
+
+```
 
 3. Generate a "jar" file from the manifest and class files 
-```jar cfm MyApp.jar Manifest.txt MyApp.class```
+```
+jar cfm MyApp.jar Manifest.txt MyApp.class
+```
 
 4. Execute the jar file using java. The "-cp" argument is shorthand for "class path" and identifies the main class in the jar file as "MyApp". 
 ```
